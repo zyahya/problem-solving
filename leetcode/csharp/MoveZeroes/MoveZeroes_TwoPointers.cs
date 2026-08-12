@@ -9,10 +9,7 @@ public class MoveZeroes_TwoPointers
 
         while (right < nums.Length)
         {
-            int leftN = nums[left];
-            int rightN = nums[right];
-
-            if (leftN == 0 && rightN != 0)
+            if (nums[left] == 0 && nums[right] != 0)
             {
                 (nums[right], nums[left]) = (nums[left], nums[right]);
 
@@ -20,7 +17,7 @@ public class MoveZeroes_TwoPointers
                 right++;
                 continue;
             }
-            else if (leftN != 0 && rightN == 0)
+            else if (nums[left] != 0 && nums[right] == 0)
             {
                 left++;
                 continue;

@@ -1,4 +1,4 @@
-#include "./is_it_a_palindrome__two_pointers.cpp"
+#include "./IsItAPalindrome_TwoPointers.cpp"
 #include <doctest.h>
 
 TEST_CASE("8kyu/is_it_a_palindrome")

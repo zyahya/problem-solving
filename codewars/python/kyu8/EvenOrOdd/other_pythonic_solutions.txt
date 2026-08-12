@@ -1,5 +1,8 @@
+# 1
 def even_or_odd(number):
   return ["Even", "Odd"][number % 2]
 
+
+# 2
 def even_or_odd(number):
 	return 'Odd' if number % 2 else 'Even'

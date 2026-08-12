@@ -1,4 +1,4 @@
-from .even_or_odd import solution
+from .EvenOrOdd import solution
 import pytest
 
 

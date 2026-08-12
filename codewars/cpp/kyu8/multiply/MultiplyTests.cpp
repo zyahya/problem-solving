@@ -1,5 +1,6 @@
+#include "Multiply.cpp"
 #include <doctest.h>
-#include "multiply.cpp"
+
 
 TEST_CASE("multiply test cases")
 {

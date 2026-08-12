@@ -1,6 +1,7 @@
+#include "./AlternatingCase_BitShifting.cpp"
+#include "./AlternatingCase_StdLibrary.cpp"
 #include <doctest.h>
-#include "./alternating_case_bit.cpp"
-#include "./alternating_case_std.cpp"
+
 
 TEST_CASE("alternate_case")
 {

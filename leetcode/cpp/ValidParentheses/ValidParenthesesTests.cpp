@@ -1,4 +1,4 @@
-#include "./valid_parentheses__stack.cpp"
+#include "./ValidParentheses_Stack.cpp"
 #include <doctest.h>
 
 TEST_CASE("valid parentheses")
