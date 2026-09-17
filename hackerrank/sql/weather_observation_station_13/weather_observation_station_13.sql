@@ -1,5 +1,3 @@
--- TRUNC(number, decimal) in postgres and oracle
--- ROUND() in sql server
-
-SELECT TRUNCATE(SUM(LAT_N), 4) FROM STATION
+SELECT CAST(ROUND(SUM(LAT_N), 4, 1) AS DECIMAL(32, 4))
+FROM STATION
 WHERE LAT_N > 38.7880 AND LAT_N < 137.2345;
