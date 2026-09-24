@@ -1,5 +1,3 @@
-https://www.hackerrank.com/challenges/array-left-rotation/problem?isFullScreen=true
-
 Solution steps:
 
 1. Remove the first item

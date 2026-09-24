@@ -1,5 +1,3 @@
-https://www.codewars.com/kata/57a77726bb9944d000000b06
-
 This solution has an enhancement, where I can directly do the division without using the floor method. Where doing calculation with int and decimals by default will lose the precision.
 
 ```cs
