@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjectEuler.multiples_of_3_and_5;
+namespace ProjectEuler.MultipliesOf3And5;
 
 public class MultiplesOf3And5_BruteForce
 {
