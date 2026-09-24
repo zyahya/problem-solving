@@ -20,7 +20,6 @@ fi
 dir="${kyu}Kyu/${problem_name}"
 
 mkdir -p "$dir"
-touch "$dir/README.md"
 touch "$dir/${problem_name}.cpp"
 
 # Changed to EOF (no quotes) so $dir will expand

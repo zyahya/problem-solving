@@ -18,8 +18,5 @@ fi
 # Create the directory
 mkdir -p "$DIR"
 
-# Create solution file with the specified extension and README.md inside the directory
+# Create solution file with the specified extension
 touch "$DIR/solution.$EXT"
-touch "$DIR/README.md"
-
-echo "Created '$DIR' with solution.$EXT and README.md."

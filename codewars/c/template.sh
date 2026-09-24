@@ -20,7 +20,6 @@ fi
 dir="${kyu}kyu/${problem_name}"
 
 mkdir -p "$dir"
-touch "$dir/README.md"
 
 cat > "$dir/solution.c" <<'EOF'
 int main() {

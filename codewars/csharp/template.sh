@@ -29,7 +29,6 @@ CLASS_NAME=$(to_pascal_case "$PROBLEM_NAME")
 TARGET_DIR="./$LEVEL/$PROBLEM_NAME"
 
 mkdir -p "$TARGET_DIR"
-touch "$TARGET_DIR/README.md"
 
 # Generate the Solution Boilerplate
 cat > "$TARGET_DIR/${PROBLEM_NAME}.cs" <<EOF

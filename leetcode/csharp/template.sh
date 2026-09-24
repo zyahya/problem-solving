@@ -17,7 +17,6 @@ CLASS_NAME=$(echo "$CLASS_NAME" | sed -E 's/^([Qq]?[0-9]+)_?([A-Za-z])/\1_\2/')
 TARGET_DIR="./$PROBLEM_NAME"
 
 mkdir -p "$TARGET_DIR"
-touch "$TARGET_DIR/README.md"
 
 # Generate the Solution Boilerplate
 cat > "$TARGET_DIR/${PROBLEM_NAME}.cs" <<EOF

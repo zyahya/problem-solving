@@ -5,7 +5,8 @@ if [[ -z "$1" ]]; then
     exit 1
 fi
 
-NAME="${1// /_}"
+NAME="${1,,}"
+NAME="${NAME// /_}"
 
 mkdir -p "$NAME"
 touch "$NAME/$NAME.sql"
