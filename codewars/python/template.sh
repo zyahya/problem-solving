@@ -20,7 +20,6 @@ fi
 TARGET_DIR="./$LEVEL/$PROBLEM_NAME"
 
 mkdir -p "$TARGET_DIR"
-touch "$TARGET_DIR/README.md"
 touch "$TARGET_DIR/__init__.py"
 
 cat > "$TARGET_DIR/${PROBLEM_NAME}.py" <<EOF
